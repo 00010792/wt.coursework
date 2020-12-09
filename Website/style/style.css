@@ -3517,12 +3517,115 @@ top: 92px;
 background: rgba(196, 196, 196, 0.25);
 }
 
+.form-control1 text1 {
+position: absolute;
+width: 113px;
+height: 17px;
+left: 754px;
+top: 108px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #786D6D;
+}
+
+.form-control2 {
+position: absolute;
+width: 278px;
+height: 50px;
+left: 735px;
+top: 179px;
+background: rgba(196, 196, 196, 0.25);
+}
+
+.form-control3 {
+position: absolute;
+width: 278px;
+height: 50px;
+left: 1043px;
+top: 179px;
+background: rgba(196, 196, 196, 0.25);
+}
+
+.form-control4 {
+position: absolute;
+width: 585px;
+height: 170px;
+left: 736px;
+top: 266px;
+background: rgba(196, 196, 196, 0.25);
+}
+
 .form-btn {
 position: absolute;
 width: 174px;
 height: 50px;
 left: 736px;
 top: 462px;
-background: linear-gradient(94.72deg, #FF0000 0%, #B1060F 100%);
+background-color :#dd3434;
 color: #FFFFFF; 
+transition: background .2s linear;
+font-family: 'Montserrat', cursive;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+}
+
+.form-btn:hover {
+    background: #FF0000;
+}
+
+.yourname {
+position: absolute;
+width: 79px;
+height: 17px;
+left: 744px;
+top: 65px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
+
+.yourphone {
+position: absolute;
+width: 110px;
+height: 17px;
+left: 744px;
+top: 152px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
+
+.youremail {
+position: absolute;
+width: 40px;
+height: 17px;
+left: 1052px;
+top: 152px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
+
+.yourmessage {
+position: absolute;
+width: 98px;
+height: 17px;
+left: 745px;
+top: 239px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
 }

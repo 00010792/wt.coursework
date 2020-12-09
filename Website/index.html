@@ -23,10 +23,10 @@
                 </a>
                 <nav class="nav">
                     <a class="nav__link" href="#services">Services</a>
-                    <a class="nav__link" href="#">Movies</a>
-                    <a class="nav__link" href="#">Series</a>
-                    <a class="nav__link" href="#">TV</a>
-                    <a class="nav__link" href="#">Contacts</a> 
+                    <a class="nav__link" href="#movies">Movies</a>
+                    <a class="nav__link" href="#series">Series</a>
+                    <a class="nav__link" href="#tv">TV</a>
+                    <a class="nav__link" href="#contacts">Contacts</a> 
                 </nav>
                 <nav class="nav__icon">
                     <a class="nav__link" href="#"><img src="images/Icons/glass.png"></a>
@@ -137,7 +137,7 @@
     <!--Layer 3-->
 
     <div class="container">
-        <div class="movies">
+        <div class="movies" id="movies">
             <div class="movies_background">
                 <div class="movies_picture"></div>
                 <p class="movies_title">Movies</p>
@@ -290,7 +290,7 @@
     <!--Layer 4-->
 
     <div class="container">
-        <div class="series">
+        <div class="series" id="series">
             <div class="series_background">
                 <div class="series_picture"></div>
                 <p class="series_title">Series</p>
@@ -446,7 +446,7 @@
      <!--Layer 5-->
 
      <div class="container">
-        <div class="tv">
+        <div class="tv" id="tv">
             <div class="tv_background">
                 <div class="tv_picture"></div>
                 <p class="tv_title">TV Channels</p>
@@ -570,7 +570,7 @@
     <!--Layer 6-->
 
     <div class="container">
-        <div class="contacts">
+        <div class="contacts" id="contacts">
             <div class="contacts_background">
                 <div class="contacts_ph"></div>
                 <p class="contacts_title">Contact Details</p>
@@ -593,11 +593,19 @@
                 </a>
 
                 <form name="contact" method="POST" data-netlify="true">
-    
-                    <input class="form-control1" type="text" name="name" placeholder="Type your name">
-                    <input class="form-control2" type="text" name="phone" placeholder="Тype your mumber">
-                    <button class="form-btn" type="submit">Submit</button>
+                    <input class="form-control1" type="text1" name="name" placeholder="Type your name">
+                    <input class="form-control2" type="text2" name="phone" placeholder="Тype your phone number">
+                    <input class="form-control3" type="text3" name="email" placeholder="Тype your email">
+                    <input class="form-control4" type="text4" name="message" placeholder="Тype your message here">
+                    <a class="forbutton" href="#">
+                        <button class="form-btn" type="submit">Submit</button>
+                    </a>
                 </form>
+
+                <p class="yourname">Your Name</p>
+                <p class="yourphone">Phone Number</p>
+                <p class="youremail">Email</p>
+                <p class="yourmessage">Your Message</p>
 
                 <footer>
                    <div class="footer_rec"></div>

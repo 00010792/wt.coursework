@@ -3491,3 +3491,22 @@ transition: .1s linear;
 .txt15:hover {
     color: #FFFFFF;
 }
+
+.form-control1 {
+position: absolute;
+width: 585px;
+height: 50px;
+left: 735px;
+top: 92px;
+background: rgba(196, 196, 196, 0.25);
+}
+
+.form-btn {
+position: absolute;
+width: 174px;
+height: 50px;
+left: 736px;
+top: 462px;
+background: linear-gradient(94.72deg, #FF0000 0%, #B1060F 100%);
+color: #FFFFFF; 
+}

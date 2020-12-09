@@ -3629,3 +3629,38 @@ font-size: 14px;
 line-height: 17px;
 color: #FFFFFF;
 }
+
+.report {
+position: absolute;
+width: 50px;
+height: 50px;
+left: 1300px;
+top: 623px;
+opacity: .75;
+transition: .1s linear;
+z-index: 10000;
+}
+
+.report:hover {
+   opacity: 1;
+}
+
+.reportr {
+position: absolute;
+width: 49px;
+height: 17px;
+left: 1300px;
+top: 690px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+opacity: .75;
+transition: .1s linear;
+z-index: 10000;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.reportr:hover {
+   opacity: 1;
+}
